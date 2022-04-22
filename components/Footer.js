@@ -13,6 +13,11 @@ const Footer = () => {
           Discord
         </a>
       </Link>
+      <Link href="/assets">
+        <a target="_blank" rel="noopener noreferrer" className="hover:text-blue-200">
+          Media Assets
+        </a>
+      </Link>
     </footer>
   );
 };

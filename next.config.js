@@ -20,6 +20,11 @@ const nextConfig = {
         destination: "https://twitter.com/ParagonFGC",
         permanent: true,
       },
+      {
+        source: "/assets",
+        destination: "https://paragonfgc.s3.eu-west-2.amazonaws.com/paragonfgc_media_assets.zip",
+        permanent: true,
+      },
     ];
   },
 };
