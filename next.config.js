@@ -25,8 +25,14 @@ const nextConfig = {
         destination: "https://paragonfgc.s3.eu-west-2.amazonaws.com/paragonfgc_media_assets.zip",
         permanent: true,
       },
+      {
+        source: "/shop",
+        destination: "https://shop.paragonfgc.com/",
+        permanent: true,
+      },
     ];
   },
 };
 
 module.exports = nextConfig;
+
